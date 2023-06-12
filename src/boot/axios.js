@@ -8,9 +8,8 @@ import axios from 'axios'
 // "export default () => {}" function below (which runs individually
 // for each client)
 // const api = axios.create({ baseURL: 'https://api.example.com' })
-// const RESTURL = "http://172.26.117.16:3000/api"
-// const RESTURL = "https://web-1-65-restwithnodejs.herokuapp.com/api"
-const RESTURL = "http://localhost:3000/api"
+const RESTURL = "https://manage-account-api.vercel.app/api"
+// const RESTURL = "http://localhost:3000/api"
 const api = axios.create({ 
   baseURL: RESTURL,
   headers:{
